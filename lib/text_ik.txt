@@ -1,0 +1,11 @@
+<!-- ik分词器 -->
+  <fieldType name="text_ik" class="solr.TextField">
+    <analyzer type="index">
+        <tokenizer class="org.wltea.analyzer.lucene.IKTokenizerFactory" useSmart="false" conf="ik.conf"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+    </analyzer>
+    <analyzer type="query">
+        <tokenizer class="org.wltea.analyzer.lucene.IKTokenizerFactory" useSmart="true" conf="ik.conf"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+    </analyzer>
+  </fieldType>

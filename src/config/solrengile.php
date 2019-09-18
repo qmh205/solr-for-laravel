@@ -7,5 +7,6 @@
  */
 
 return[
-    'options'=>['a'=>'123']
+    'url'=>'',    //安装目录
+    'project_name'=>'' //项目名称
 ];

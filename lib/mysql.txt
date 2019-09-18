@@ -1,0 +1,4 @@
+<!-- mysql导入增加的包开始--> 
+    <lib dir="${solr.install.dir:../../../..}/dist/" regex="mysql-connector-java-.*\.jar" /> 
+    <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-dataimporthandler-.*\.jar" /> 
+<!-- mysql导入增加的包结束-->
