@@ -1,0 +1,16 @@
+{
+    "name": "qmh/solr-engile-php",
+    "description": "键安装 配置",
+    "authors": [
+        {
+            "name": "qimh",
+            "email": "qimh0203@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Qmh\\SolrEngile\\": "src/"
+        }
+    }
+}
